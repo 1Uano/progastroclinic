@@ -1,0 +1,49 @@
+.b-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  &_top {
+    height: 93px;
+  }
+
+  &_bottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgb(96, 166, 66);
+
+    &_inner {
+      width: 100%;
+      max-width: 980px;
+      height: 41px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      list-style: none;
+
+      &_item {
+        width: max-content;
+        border-right: 1px solid rgb(124, 216, 86);
+
+        &:last-child {
+          border-right: none;
+        }
+      }
+
+      &_link {
+        padding: 0 15px;
+        font: bold 20px/30px Ubuntu;
+        color: #ffffff;
+        text-decoration: none;
+        transition: 0.2s;
+
+        &:hover,
+        &.-active {
+          color: rgb(124, 216, 86);
+        }
+      }
+    }
+  }
+}

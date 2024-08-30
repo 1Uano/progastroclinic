@@ -1,0 +1,64 @@
+.b-services {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  &_section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+
+    &.-green {
+      background: rgb(124, 216, 86);
+    }
+
+    &_inner {
+      width: 100%;
+      max-width: 980px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    &_subtitle {
+      font: 400 22px/1.88em Ubuntu;
+      color: rgb(124, 216, 86);
+      text-align: center;
+    }
+
+    &_title {
+      font: 400 40px/1.88em Ubuntu;
+      color: rgb(124, 216, 86);
+      text-align: center;
+    }
+
+    &_list {
+      display: flex;
+      flex-direction: column;
+      padding-left: 18px;
+
+      &_item {
+        font: 400 18px/1.88em Ubuntu;
+      }
+
+      &_title {
+        font: 500 22px/1.88em Ubuntu;
+        color: #ffffff;
+
+        &.-center {
+          text-align: center;
+        }
+
+        &.-italic {
+          font-style: italic;
+        }
+      }
+    }
+
+    &_text {
+      font: 400 18px/1.28 Ubuntu;
+      color: #ffffff;
+    }
+  }
+}

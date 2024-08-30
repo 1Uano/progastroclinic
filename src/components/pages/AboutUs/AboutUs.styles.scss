@@ -1,0 +1,42 @@
+.b-aboutUsPage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  &_section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+
+    &.-green {
+      background: rgb(124, 216, 86);
+    }
+
+    &_inner {
+      width: 100%;
+      max-width: 798px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    &_text {
+      text-indent: 24px;
+      font: 400 18px/1.88em Ubuntu;
+      color: rgb(124, 216, 86);
+
+      &.-no_indent {
+        text-indent: 0;
+      }
+
+      &.-center {
+        text-align: center;
+      }
+
+      &.-white {
+        color: #ffffff;
+      }
+    }
+  }
+}
