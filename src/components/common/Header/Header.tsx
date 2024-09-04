@@ -16,7 +16,7 @@ const Header = () => {
     <header className={themeClass}>
       <div className={`${themeClass}_top`}>
         <img
-          src="/public/logo.png"
+          src="/logo.png"
           alt="ProGastroclinic"
           className={`${themeClass}_top_logo`}
         />

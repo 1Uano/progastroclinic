@@ -33,7 +33,7 @@ const Contacts = () => {
           <ul className={`${themeClass}_section_list`}>
             <li className={`${themeClass}_section_list_item`}>
               <img
-                src="/public/geo.png"
+                src="/geo.png"
                 alt="location"
                 className={`${themeClass}_section_list_item_icon`}
               />
@@ -44,7 +44,7 @@ const Contacts = () => {
             </li>
             <li className={`${themeClass}_section_list_item`}>
               <img
-                src="/public/gmail.png"
+                src="/gmail.png"
                 alt="gmail"
                 className={`${themeClass}_section_list_item_icon`}
               />
@@ -57,7 +57,7 @@ const Contacts = () => {
             </li>
             <li className={`${themeClass}_section_list_item`}>
               <img
-                src="/public/phone.png"
+                src="/phone.png"
                 alt="phone"
                 className={`${themeClass}_section_list_item_icon`}
               />
@@ -70,7 +70,7 @@ const Contacts = () => {
             </li>
             <li className={`${themeClass}_section_list_item`}>
               <img
-                src="/public/instagram.png"
+                src="/instagram.png"
                 alt="instagram"
                 className={`${themeClass}_section_list_item_icon`}
               />
