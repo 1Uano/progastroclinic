@@ -22,13 +22,13 @@
     }
 
     &_subtitle {
-      font: 400 22px/1.88em Ubuntu;
+      font: 400 22px/1.88em Inter;
       color: rgb(124, 216, 86);
       text-align: center;
     }
 
     &_title {
-      font: 400 40px/1.88em Ubuntu;
+      font: 400 40px/1.88em Inter;
       color: rgb(124, 216, 86);
       text-align: center;
     }
@@ -39,11 +39,11 @@
       padding-left: 18px;
 
       &_item {
-        font: 400 18px/1.88em Ubuntu;
+        font: 400 18px/1.88em Inter;
       }
 
       &_title {
-        font: 500 22px/1.88em Ubuntu;
+        font: 500 22px/1.88em Inter;
         color: #ffffff;
 
         &.-center {
@@ -57,7 +57,7 @@
     }
 
     &_text {
-      font: 400 18px/1.28 Ubuntu;
+      font: 400 18px/1.28 Inter;
       color: #ffffff;
     }
   }

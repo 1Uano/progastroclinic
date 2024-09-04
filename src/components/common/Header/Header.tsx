@@ -1,4 +1,3 @@
-import React from "react";
 import cn from "classnames";
 import { Link, useLocation } from "@tanstack/react-router";
 import { Route as HomeRoute } from "../../../routes";
@@ -15,7 +14,13 @@ const Header = () => {
 
   return (
     <header className={themeClass}>
-      <div className={`${themeClass}_top`}>ProGastro</div>
+      <div className={`${themeClass}_top`}>
+        <img
+          src="/public/logo.png"
+          alt="ProGastroclinic"
+          className={`${themeClass}_top_logo`}
+        />
+      </div>
       <nav className={`${themeClass}_bottom`}>
         <ul className={`${themeClass}_bottom_inner`}>
           <li className={`${themeClass}_bottom_inner_item`}>

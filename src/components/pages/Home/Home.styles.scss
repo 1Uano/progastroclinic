@@ -48,14 +48,14 @@
       margin-top: 45px;
 
       &_title {
-        font: normal 40px/1.37 Ubuntu;
+        font: normal 40px/1.37 Inter;
         color: rgb(124, 216, 86);
         margin-bottom: 20px;
       }
 
       &_text {
         text-indent: 40px;
-        font: 300 18px/1.88em Ubuntu;
+        font: 300 18px/1.88em Inter;
         color: rgb(124, 216, 86);
 
         &.-no_indent {
@@ -73,13 +73,13 @@
       gap: 10px;
 
       &_text {
-        font: italic 500 24px/1.44em Ubuntu;
+        font: italic 500 24px/1.44em Inter;
         text-align: center;
         color: #ffffff;
       }
 
       &_author {
-        font: 500 20px/1.44em Ubuntu;
+        font: 500 20px/1.44em Inter;
         text-align: right;
         color: #ffffff;
       }

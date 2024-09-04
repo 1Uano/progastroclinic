@@ -5,7 +5,14 @@
   width: 100%;
 
   &_top {
+    width: 100%;
     height: 93px;
+    padding: 0 20px;
+    box-sizing: border-box;
+
+    &_logo {
+      height: 180px;
+    }
   }
 
   &_bottom {
@@ -34,7 +41,7 @@
 
       &_link {
         padding: 0 15px;
-        font: bold 20px/30px Ubuntu;
+        font: bold 20px/30px Inter;
         color: #ffffff;
         text-decoration: none;
         transition: 0.2s;

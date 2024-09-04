@@ -31,17 +31,17 @@
     }
 
     &_subtitle {
-      font: 400 18px/1.88em Ubuntu;
+      font: 400 18px/1.88em Inter;
       color: #ffffff;
       text-align: center;
 
       &.-big {
-        font: 400 25px/1.35em Ubuntu;
+        font: 400 25px/1.35em Inter;
       }
     }
 
     &_title {
-      font: 400 40px/1.35em Ubuntu;
+      font: 400 40px/1.35em Inter;
       color: #ffffff;
       text-align: center;
     }
@@ -53,9 +53,19 @@
       list-style: none;
 
       &_item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
         &_link {
-          font: 500 18px/1.88em Ubuntu;
+          font: 500 18px/1.88em Inter;
           color: #ffffff;
+        }
+
+        &_icon {
+          object-fit: contain;
+          width: 20px;
+          height: 20px;
         }
       }
     }
@@ -69,7 +79,7 @@
     border: 3px solid rgb(72, 227, 121);
     background: #ffffff;
     color: #373b4d;
-    font: italic normal 18px/1.35em Ubuntu;
+    font: italic normal 18px/1.35em Inter;
     outline: none;
     transition: 0.2s;
 
@@ -85,7 +95,7 @@
     border: 3px solid rgb(72, 227, 121);
     background: #ffffff;
     color: #373b4d;
-    font: italic normal 18px/1.35em Ubuntu;
+    font: italic normal 18px/1.35em Inter;
     outline: none;
     transition: 0.2s;
     resize: none;
@@ -106,7 +116,7 @@
     border: none;
     border-radius: 4px;
     background: #c7f7d8;
-    font: italic 600 17px/1.35em Ubuntu;
+    font: italic 600 17px/1.35em Inter;
     color: #373b4d;
     cursor: pointer;
     transition: 0.2s;

@@ -1,5 +1,3 @@
-import React from "react";
-
 import "./Home.styles.scss";
 
 const Home = () => {
@@ -12,7 +10,7 @@ const Home = () => {
           <div className={`${themeClass}_section_imageWrapper`}>
             <img
               className={`${themeClass}_section_image`}
-              src="/src/assets/images/home_1.webp"
+              src="/home_1.webp"
               alt="Vita Medenets"
             />
           </div>

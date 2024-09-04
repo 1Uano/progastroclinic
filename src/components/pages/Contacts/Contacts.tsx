@@ -1,4 +1,3 @@
-import React from "react";
 import { GoogleMap, Marker, useJsApiLoader } from "@react-google-maps/api";
 
 import "./Contacts.styles.scss";
@@ -18,7 +17,7 @@ const Contacts = () => {
 
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
-    googleMapsApiKey: "AIzaSyBq2FPpjqmMHUwyW5Qf6akWftKya77S_24",
+    googleMapsApiKey: "AIzaSyALD4IpX8B5BSM5bG-CtM0n0ZvyVy2PQzs\n",
   });
 
   return (
@@ -33,12 +32,22 @@ const Contacts = () => {
           </h3>
           <ul className={`${themeClass}_section_list`}>
             <li className={`${themeClass}_section_list_item`}>
+              <img
+                src="/public/geo.png"
+                alt="location"
+                className={`${themeClass}_section_list_item_icon`}
+              />
               <a href="#map" className={`${themeClass}_section_list_item_link`}>
                 Професора Отамановського(Коломенська), 15, Харків, Харківська
                 область
               </a>
             </li>
             <li className={`${themeClass}_section_list_item`}>
+              <img
+                src="/public/gmail.png"
+                alt="gmail"
+                className={`${themeClass}_section_list_item_icon`}
+              />
               <a
                 href="mailto:progastrokh@gmail.com"
                 className={`${themeClass}_section_list_item_link`}
@@ -47,6 +56,11 @@ const Contacts = () => {
               </a>
             </li>
             <li className={`${themeClass}_section_list_item`}>
+              <img
+                src="/public/phone.png"
+                alt="phone"
+                className={`${themeClass}_section_list_item_icon`}
+              />
               <a
                 href="tel:+380505554668"
                 className={`${themeClass}_section_list_item_link`}
@@ -55,6 +69,11 @@ const Contacts = () => {
               </a>
             </li>
             <li className={`${themeClass}_section_list_item`}>
+              <img
+                src="/public/instagram.png"
+                alt="instagram"
+                className={`${themeClass}_section_list_item_icon`}
+              />
               <a
                 href="https://instagram.com/progastrokh?igshid=OGQ5ZDc2ODk2ZA=="
                 target={"_blank"}

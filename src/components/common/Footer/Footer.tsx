@@ -1,5 +1,3 @@
-import React from "react";
-
 import "./Footer.styles.scss";
 
 const Footer = () => {
@@ -7,7 +5,9 @@ const Footer = () => {
 
   return (
     <footer className={themeClass}>
-      <span className={`${themeClass}_text`}>©2023 від ProGastro.</span>
+      <span className={`${themeClass}_text`}>
+        ©{new Date().getFullYear()} від ProGastro.
+      </span>
     </footer>
   );
 };
