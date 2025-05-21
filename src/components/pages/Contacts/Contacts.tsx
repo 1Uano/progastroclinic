@@ -28,7 +28,7 @@ const Contacts = () => {
           <h3 className={`${themeClass}_section_subtitle`}>
             Графік прийому <br /> Понеділок - субота 15:00 - 19:00 <br /> Графік
             call center <br />
-            Понеділок - неділя 08:00 - 20:00
+            Понеділок - субота 09:00 - 20:00
           </h3>
           <ul className={`${themeClass}_section_list`}>
             <li className={`${themeClass}_section_list_item`}>
